@@ -9,7 +9,7 @@ This paper presents a synthesis and modest extension of Kaluza–Klein geometry,
 
 The central advance is a frequency-dependent non-linear plus entropic screening mechanism that predicts a measurable deviation $\delta g/g \approx 2 \times 10^{-15}$ (with SNR > 5) accessible only in the ultra-quiet lunar free-fall environment.
 
-**Regolith Observatory for Kaluza–Klein Yield (ROCKY)** is the proposed 150 kg modular payload (dual-species $^{87}$Rb/$^{39}$K atom interferometer, 100 km baseline) designed for deployment at the lunar South Pole via Starship HLS or CLPS.
+**Regolith Observatory for Kaluza–Klein Yield (ROCKY)** is the proposed 150 kg modular payload dual-species $^{87}\mathrm{Rb}/^{39}\mathrm{K}$ atom interferometer, 100 km baseline) designed for deployment at the lunar South Pole via Starship HLS or CLPS.
 
 ### Repository Contents
 - `paper/` – Final PDF  
