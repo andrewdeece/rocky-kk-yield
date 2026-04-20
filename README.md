@@ -3,6 +3,7 @@
 
 *Andrew Deece, Independent Researcher, Sydney, Australia*
 
+[![arXiv](https://img.shields.io/badge/arXiv-2504.xxxxx-gr-qc.svg)](https://arxiv.org/abs/2504.xxxxx)  
 [![PDF](https://img.shields.io/badge/PDF-Final_Version-blue)](https://github.com/andrewdeece/rocky-kk-yield/blob/main/Artemis_II_Emergent_Cosmos_Main_Paper.pdf)  
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281/zenodo.19659640-blue)](https://zenodo.org/records/19659640)
 
@@ -28,7 +29,7 @@ The name ROCKY is officially assigned the acronym “Remote Observatory for Kalu
 
 ### Key Features
 - Frequency-dependent non-linear + entropic screening mechanism (β = 2)  
-- Predicts measurable δg/g ≈ 2 × 10^{-15} with SNR > 5 in the Artemis low-frequency window  
+- Predicts δg/g ≈ 2 × 10^{-15} with SNR > 5 in the Artemis low-frequency window  
 - 50–200 kg ROCKY dual-species $^{87}\mathrm{Rb}/^{39}\mathrm{K}$ atom-interferometer payload  
 - **Live Phase 0 re-analysis** of public Artemis II free-fall data (April 2026, NASA SP-2026-001) already completed — 40 % tighter exclusion contour  
 - Fully compatible with Starship HLS / CLPS envelopes and lunar South Pole deployment  
