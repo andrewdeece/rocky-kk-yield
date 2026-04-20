@@ -3,7 +3,7 @@
 
 *Andrew Deece, Independent Researcher, Sydney, Australia*
 
-[![PDF](https://img.shields.io/badge/PDF-Final_Version-blue)](https://github.com/andrewdeece/rocky-kk-yield/blob/main/paper/Artemis_II_and_the_Emergent_Cosmos_with_ROCKY.pdf)  
+[![PDF](https://img.shields.io/badge/PDF-Final_Version-blue)](https://github.com/andrewdeece/rocky-kk-yield/blob/main/Artemis_II_Emergent_Cosmos_Main_Paper.pdf)  
 [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281/zenodo.19659640-blue)](https://zenodo.org/records/19659640)
 
 ### Meet Rocky
