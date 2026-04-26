@@ -42,10 +42,14 @@ $$
 
 with β = 2 power-law suppression arising from quadratic non-linearities in the 5D Einstein equations. This mechanism satisfies all terrestrial bounds yet predicts a measurable lunar deviation δg/g ≈ 2 × 10^{-15} (R_5 = 10^{-4} m, τ_ent ≈ 10^{-2} s) with SNR > 5 in the Artemis-accessible low-frequency window (ω ≪ 2π / T_orbit).
 
+## Buildability and Technology Readiness
+
+Crucially, this architecture requires no exotic physics or materials to construct. All core components — dual-species atom interferometry, regolith bagging, radiation-hardened edge AI, and long-baseline laser ranging — currently sit at TRL 5–7, with direct heritage from ISS experiments (CAL/BECCAL), terrestrial long-baseline arrays (MAGIS-100), and NASA’s 2025–2026 dust-mitigation demonstrations. The physical visualisation of this payload confirms that a fully buildable, falsifiable testbed for emergent gravity can be seamlessly integrated into the imminent Artemis payload manifests.
+
 ### Repository Contents
 - `paper/` — Final 68-page whitepaper (PDF)  
 - `figures/` — High-resolution publication-ready figures and renders (companion All Figures.pdf)
-- `Cover Letter/` - One-page "For some time now, I’ve been thinking about gravity in a completely different way..."
+- `letter/` - One-page "For some time now, I’ve been thinking about gravity in a completely different way..."
 
 ### How to Contribute
 Fork the repository, propose improvements to the ROCKY payload concept, or suggest enhancements to the analysis pipeline. All contributions are welcome and will be properly credited.
