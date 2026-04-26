@@ -1,0 +1,8 @@
+R5,tau_ent,contour_type,description
+1e-5,0.001,excluded,Phase 0 40% tighter bound (lower edge)
+1e-5,0.1,excluded,Phase 0 40% tighter bound (upper edge)
+5e-5,0.005,excluded,Phase 0 exclusion region
+1e-4,0.01,benchmark,Benchmark point used in paper (R5=10^{-4}m, τ_ent≈10^{-2}s)
+2e-4,0.02,allowed,Allowed region after Phase 0 tightening
+5e-4,0.05,allowed,Allowed region after Phase 0 tightening
+1e-3,0.1,allowed,Allowed region after Phase 0 tightening
