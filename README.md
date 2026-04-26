@@ -51,6 +51,7 @@ Crucially, this architecture requires no exotic physics or materials to construc
 - `figures/` — High-resolution publication-ready figures and renders (companion All Figures.pdf)
 - `letter/` - One-page cover note "For some time now, I’ve been thinking about gravity in a completely different way..."
 - `notebooks/` - (Coming soon) Jupyter notebooks to regenerate analysis
+- `src/` - (Coming soon) SymPy scripts for Appendices A/B
 
 ### How to Contribute
 Fork the repository, propose improvements to the ROCKY payload concept, or suggest enhancements to the analysis pipeline. All contributions are welcome and will be properly credited.
