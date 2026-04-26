@@ -37,12 +37,11 @@ The name ROCKY is officially assigned the acronym “Remote Observatory for Kalu
 **The central advance is a frequency-dependent non-linear + entropic screening mechanism**
 
 $$
-\alpha(\omega) = \frac{\alpha_0}{1 - i \omega \tau_{\rm ent}}
+\alpha(\omega) = \frac{\alpha_0}{1 - i\omega\tau_{\rm ent}}
 $$
 
-with β = 2 power-law suppression arising from quadratic non-linearities in the 5D Einstein equations. 
-This mechanism satisfies all terrestrial bounds yet predicts a measurable lunar deviation δg/g ≈ 2 × 10^{-15} (R_5 = 10^{-4} m, τ_ent ≈ 10^{-2} s) 
-with SNR > 5 in the Artemis-accessible low-frequency window (ω ≪ 2π / T_orbit).
+with β = 2 power-law suppression arising from quadratic non-linearities in the 5D Einstein equations. This mechanism satisfies all terrestrial bounds yet predicts a measurable lunar deviation δg/g ≈ 2 × 10^{-15} (R_5 = 10^{-4} m, τ_ent ≈ 10^{-2} s) with SNR > 5 in the Artemis-accessible low-frequency window (ω ≪ 2π / T_orbit).
+
 ### Repository Contents
 - `paper/` — Final 68-page whitepaper (PDF)  
 - `figures/` — High-resolution publication-ready figures and renders (companion All Figures.pdf)
