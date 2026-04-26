@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "ROCKY-Artemis: Reproducibility materials for the Artemis II emergent-cosmos paper"
+authors:
+  - family-names: Deece
+    given-names: Andrew
+year: 2026
+doi: 10.5281/zenodo.19790009
+url: "https://github.com/andrewdeece/RockyArtemis"
