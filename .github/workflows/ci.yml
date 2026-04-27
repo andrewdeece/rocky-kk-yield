@@ -18,17 +18,21 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
+    - name: Verify Repository Contents (Debug)
+      run: |
+        echo "Listing root directory contents to verify environment.yml exists:"
+        ls -la
+
     - name: Setup Conda Environment
       uses: conda-incubator/setup-miniconda@v3
       with:
         activate-environment: rocky-artemis
         environment-file: environment.yml
         auto-activate-base: false
-        miniforge-version: latest
-        use-mamba: true
+        conda-solver: libmamba # FIXED: Replaces the deprecated use-mamba and miniforge-version
 
     - name: Cache Conda Packages
-      uses: actions/cache@v4 # FIXED: Upgraded to v4 to resolve Node 16 deprecation
+      uses: actions/cache@v4
       env:
         cache-name: cache-conda-pkgs
       with:
@@ -43,12 +47,15 @@ jobs:
 
     - name: Enforce Code Quality (Ruff)
       run: |
+        # Creates placeholder directories if they don't exist yet to prevent pipeline crashes
+        mkdir -p src tests
         ruff check src/ tests/
         ruff format --check src/ tests/
 
     - name: Execute Physics Engine Unit Tests
       run: |
-        pytest tests/ --cov=src --cov-report=xml --cov-report=term
+        # PYTHONPATH explicitly set to prevent ModuleNotFound errors
+        PYTHONPATH=src pytest tests/ --cov=src --cov-report=xml --cov-report=term
 
     - name: Upload Coverage Artifacts
       uses: actions/upload-artifact@v4
